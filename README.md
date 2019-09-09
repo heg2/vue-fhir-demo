@@ -4,7 +4,7 @@ This is a simple demo for using the [jsOnFhir](https://www.npmjs.com/package/@i4
 It demonstrates how a connection to a FHIR server with OAuth2 (in this case [test.midata.coop](https://test.midata.coop)) can be made, and some basic actions on resources can be done. For testing, you need a user account on the test instance of midata.coop.
 
 ## Project setup
-After cloning this repo with `git clone ...`, you can install the dependencies with
+After cloning this repo with `git clone https://github.com/heg2/vue-fhir-demo`, you can install the dependencies with
 ```
 npm install
 ```
