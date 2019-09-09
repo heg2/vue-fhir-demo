@@ -3,7 +3,7 @@ import App from './App.vue'
 import { JSOnFhir } from '@i4mi/js-on-fhir'
 
 // create a new fhir object with the credentials needed for your application
-const fhir = new JSOnFhir('http://test.midata.coop', 'vue-fhir-demo', 'http://localhost:8080');
+const fhir = new JSOnFhir('https://test.midata.coop', 'vue-fhir-demo', 'http://localhost:8080');
 
 // Add a getter for this fhir object to the Vue prototype. This makes it available from every component.
 Object.defineProperties(Vue.prototype, {
