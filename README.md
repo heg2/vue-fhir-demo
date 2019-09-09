@@ -1,29 +1,17 @@
 # vue-fhir-demo
+This is a simple demo for using the [jsOnFhir](https://www.npmjs.com/package/@i4mi/js-on-fhir) wrapper in a Vue.js app.
+
+It demonstrates how a connection to a FHIR server with OAuth2 (in this case [test.midata.coop](https://test.midata.coop)) can be made, and some basic actions on resources can be done. For testing, you need a user account on the test instance of midata.coop.
 
 ## Project setup
+After cloning this repo with `git clone ...`, you can install the dependencies with
 ```
 npm install
 ```
 
 ### Compiles and hot-reloads for development
+After installing the depencies, you can run the app with
 ```
 npm run serve
 ```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+and then point your browser to the displayed local url.
