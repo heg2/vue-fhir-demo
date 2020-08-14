@@ -224,6 +224,7 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+  max-width: 600px;
 }
 a {
   color: orange;
@@ -234,6 +235,7 @@ a:hover {
 }
 li {
   list-style-type: none;
+  text-align: left;
 }
 p, ul {
   text-align: justify;
